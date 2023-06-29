@@ -79,6 +79,14 @@ footer {
   color: var(--active-color);
 }
 
+.bold-text {
+  font-weight: 600;
+}
+
+.light-text {
+  font-weight: 300;
+}
+
 h1 {
   font-size: 22px;
   font-weight: 600;
@@ -113,6 +121,11 @@ h1:active {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.eth-values,
+.designer {
+  font-size: 16px;
 }
 
 @media (max-width: 400px) {
